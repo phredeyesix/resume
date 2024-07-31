@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fred Isaacs</title>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <style>
+         :root {
+            --bg-color: #ffffff;
+            --bg-secondary-color: #f3f3f6;
+            --color-primary: #14854F;
+            --color-lightGrey: #d2d6dd;
+            --color-grey: #747681;
+            --color-darkGrey: #3f4144;
+            --color-error: #d43939;
+            --color-success: #28bd14;
+            --grid-maxWidth: 120rem;
+            --grid-gutter: 2rem;
+            --font-size: 1.6rem;
+            --font-color: #333333;
+            --font-family-sans: sans-serif;
+            --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+            --grid-maxWidth: 890px;
+        }
+        
+        body {
+            padding-bottom: 200px;
+        }
+        
+        body.dark {
+            --bg-color: #000;
+            --bg-secondary-color: #131316;
+            --font-color: #f5f5f5;
+            --color-grey: #ccc;
+            --color-darkGrey: #777;
+        }
+        
+        h1 {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .container {
+            margin-top: 60px;
+            width: var(--grid-maxWidth);
+        }
+        
+        details[open] {
+            border-left: 1px solid var(--color-lightGrey);
+            border-right: 1px solid var(--color-lightGrey);
+            border-bottom: 1px solid var(--color-lightGrey);
+            background-color: var(--bg-secondary-color);
+        }
+        
+        details {
+            margin-bottom: 10px;
+        }
+        
+        summary {
+            border: 1px solid var(--color-lightGrey);
+            background-color: var(--bg-secondary-color) !important;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Fred Isaacs </h1>
+                <em><strong>web developer / software engineer</strong></em>
+            </div>
+            <div class="col text-right">
+                Oakland, California
+                <p>
+                    <a target="_blank" href="https://linkedin.com/in/fredisaacs">linkedin.com/in/fredisaacs</a><br>
+                    <a target="_blank" href="mailto:phredeye@gmail.com">phredeye@gmail.com</a><br>
+                    <a target="_blank" href="tel:9165486834">(916) 548-6834</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <h2 id="summary">Summary</h2>
+        <p>I've been working with software and systems since I was a teen in the late 1980s.  I am almost always involved in multiple projects.  I've almost always had a freelance project or two going.  For the past 4 years, I've been functioning as co-founder and backend developer (Laravel, NodeJS, Vue) for a startup called Elderosity, while simultaneously working as a contractor with the WP Beaver Builder team.</p>
+        
+        <p>All told, my experience and interest has run the gamut from user interaction design, through web development and front-end engineering, software engineering, to systems administration, software architecture, and horizontally scale-able server infrastructures, along with the project management experience to pull it all together.</p>
+
+        <p>I'm currently specializing in Laravel , Vue , React and/or WordPress projects that may require extensive experience with core internal APIs, Plugin development, or deep integrations with other products and services.
+        </p>
+   
+        <hr>
+        <h3 id="skills">Skills</h3>
+        <details closed="">
+            <summary>Recent Primary Focus</summary>
+            <ul>
+                <li>
+                    <p>Laravel and Lumen Frameworks<br> I've spent the majority of the last 3-4 years building REST API's based on Laravel and MySQL or MongoDB
+                    </p>
+                </li>
+                <li>
+                    <p>WordPress Core and Internals<br> I've also spent a <strong>significant</strong> anount of time working with the BeaverBuilder team, supporting one of the most popular primary WordPress plugins on the web, In addition to spearheading
+                        design and architecture of a dependency injected, microkernel architecture for their next major product, the "Beaver Builder Assistant" plugin.</p>
+                </li>
+                <li>
+                    <p>Vue.js<br> This is the primary javascript library used at Elderosity.</p>
+                </li>
+                <li>
+                    <p>React.js<br> The frontend of Assistant plugin is built in React while the Beaver Builder team is working on refactoring large portions of the Beaver Builder plugin to replace legacy jQuery with React
+                    </p>
+                </li>
+            </ul>
+
+        </details>
+        <details closed="">
+            <summary>General Areas of Expertise </summary>
+            <ul>
+                <li>HTML5</li>
+                <li>Responsive Design</li>
+                <li>CSS and Preprocessors (less, scss, etc)</li>
+                <li>REST API Development</li>
+                <li>Application Integration</li>
+                <li>Tools Development &amp; Automation of business processes</li>
+                <li>Linux System Administration and Shell Scripting, Horizontal Scaling</li>
+                <li>Cloud Platforms (AWS, Linode, DigitalOcean)</li>
+                <li>MySQL development and administration, including setting up replication.</li>
+                <li>MongoDB development and Administration, including replica sets.</li>
+                <li>Software Architecture
+                    <ul>
+                        <li>Object Oriented Programming,</li>
+                        <li>Object Oriented Analysis and Design,</li>
+                        <li>GoF Design Patterns,</li>
+                        <li>PoEAA Design Patterns</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </details>
+        <hr>
+        <h2 id="experience">Experience</h2>
+        <h3 id="freelancer--consultant">Freelancer / Consultant</h3>
+        <p><strong>Web Applications Developer</strong> / <strong>Software Engineer</strong> / <strong>Linux Systems
+                Administrator</strong><br> Jun 2001 - Present</p>
+        <p>My recent focus has been on MVP SaaS Applications, Middle-Tier Systems Integration, Web Based Administration Consoles, Electronic Commerce, Hybrid Mobile Apps, and REST API's.</p>
+        <h3 id="elderosity">Elderosity</h3>
+        <blockquote>
+            <p>" Elderosity builds software that connects Seniors, Placement Agents, Home Health Care Agencies, and Eldercare Communities. "</p>
+        </blockquote>
+        <p><strong>Chief Information Officer</strong><br>
+            <em>(Apr 2020 - Present)</em></p>
+        <p>Elderosity picked up 3 new partners (2 of the co-founders from Beaver Builder, and a new CEO), and is currently in the process of expanding our vision and goals to include 3 new product offerings, all based around SaaS model. Some using Laravel/Vue
+            others using WordPress and Vue. This includes a revamp of the original CRM to use multi-database multi-tenancy.
+        </p>
+        <p><strong>Software Architect</strong><br>
+            <em>(Mar 2017 - Apr 2020)</em></p>
+        <p>Singlehandedly built, maintained, and even helped sell, several revisions of our initial product offering: a CRM for Senior Placement Agents. Initial versions were based on Laravel, MySQL, Vue.js, and bootstrap. Later revisions added MongoDb,
+            and moved to Vuetify. One of the important features of this application was near E2E encryption from load balancer to database, hashed fields that represented ePHI, and encryption at rest on the database server file system. All hosted on AWS
+            using EC2, Elastic Beanstalk, RDS, S3, SES, SQS, SNS, and a small node based web service on Lambda.</p>
+        <h3 id="beaver-builder-fastline-media">Beaver Builder (FastLine Media)</h3>
+        <p><strong>Web Developer / Software Engineer</strong><br> Mar 2019 - Jul 2020 (1 year 5 months)</p>
+        <ul>
+            <li>PHP: WordPress, Laravel</li>
+            <li>JS: Vue, and React Development,</li>
+            <li>Linux Systems Administration</li>
+        </ul>
+        <p>Worked with core team to help design dependency injection microkernel architecture on early versions of the BeaverBuilder Assistant plugin for WordPress.</p>
+        <p>Spearheaded initial architecture, design, and early development of a Laravel Framework based REST API a premium service providing supporting architecture and extended features to users.</p>
+        <p>Periodically assisted with bugfixes and minor feature additions for the primary BeaverBuilder site builder plugin and framework for WordPress.</p>
+        <h3 id="h2-media-labs">h2 Media Labs</h3>
+        <p><strong>Software Engineer / Systems Adminstrator</strong><br> Feb 2014 - Sep 2015 (1 year 8 months)</p>
+        <ul>
+            <li>Extensive customization of WordPress for h2 Media Labs clients.</li>
+            <li>Lead the development of a premium WordPress plugin to integrate WooCommerce and ShipCompliant. (
+                <em>ShipCompliant is an API for ensuring legal compliance for shipping of alcoholic beverages.</em>)
+            </li>
+            <li>Creating RESTful APIs for consumption by Javascript SPAs and Mobile Applications</li>
+            <li>Spearheaded efforts to use 12 factor methodology in attempt to modernize WordPress development with tools like Composer, Grunt, LESS/SASS, and PHPUnit.</li>
+            <li>Built and deployed web application infrastructures on Amazon AWS (<em>EC2, S3, SES, ELB</em>)</li>
+        </ul>
+        <h3 id="liquorcom">Liquor.com </h3>
+        <p><strong>Software Engineer / Systems Administrator</strong><br> Feb 2013 - May 2013 (4 months)</p>
+        <h3 id="gensler">Gensler</h3>
+        <p><strong>Consultant - Software Architect, Team Lead</strong><br> Apr 2011 - Nov 2011 (8 months)</p>
+        <p>Web Development. Troubleshooting, refactoring, and performance tuning server and software architectures. Providing mentoring and peer assistance to developers.</p>
+        <p>Technologies Used:</p>
+
+        <pre><code>Wordpress MU, jQuery, JavascriptMVC, Zend Framework, Doctrine ORM, MySQL, REST 
+</code></pre>
+
+        <h3 id="adgent-digital">AdGent Digital</h3>
+        <p><strong>Senior Software Engineer</strong><br>
+            <em>Sep 2010 - Dec 2010 (4 months)</em></p>
+        <p>Responsible for design, development, and implementation of large scale/high load system and software architectures for social media and internet advertising “widgets” that were placed on popular websites.</p>
+        <p>Technologies Used:</p>
+
+        <pre><code>jQuery, Zend Framework, Doctrine ORM, MySQL, Memcache, MongoDB, Gearman</code></pre>
+
+        <h3 id="future-us">Future US</h3>
+        <p><strong>Contractor - Software Engineer</strong><br>
+            <em>Jan 2006 - Mar 2006 (3 months)</em></p>
+        <p>Java / J2EE programming for <a target="_blank" href="http://GamesRadar.com">GamesRadar.com</a>. wlscript and jython scripting and load balancing configuration for BEA Weblogic servers. Load testing and application profiling.
+        </p>
+        <h3 id="cnet-networks">CNET Networks</h3>
+        <p><strong>Associate Software Engineer</strong><br>
+            <em>Jan 2004 - Oct 2005 (1 year 10 months)</em></p>
+        <p>Java, J2EE and XML Development. Hand rolled a failover / load balancing JDBC connection pool. Worked on several inter-departmental home-brew web-service projects. Built and deployed RPM packages for all deploy- able projects.</p>
+        <h3 id="vialta">Vialta</h3>
+        <p><strong>Contractor - Linux/Solaris Systems Administrator</strong><br>
+            <em>2001 - 2002</em></p>
+        <p>Linux and Solaris systems administration. LAMP Development</p>
+        <h3 id="whitepajama">WhitePajama</h3>
+        <p><strong>Software Engineer</strong><br>
+            <em>2001 - 2001 (1 year)</em></p>
+        <p>Custom development of PHP based CRM and ERP solutions</p>
+        <p>Technologies Used:</p>
+        <div class="copy-wrapper">
+            <div class="copy" title="Copy Code to Clipboard"><i class="icon small">content_copy</i></div>
+            <pre><code>Linux, HP-UX, PHP, MySQL, Oracle, Javascript, Java Applets 
+</code></pre>
+        </div>
+        <h3 id="unitek-learning">Unitek Learning</h3>
+        <p><strong>Systems Administrator / Web Developer</strong><br>
+            <em>Jan 2000 - Dec 2000 (1 year)</em></p>
+        <p>Provided client consulting services on behalf of Unitek.</p>
+        <p>Technologies Used:</p>
+        <div class="copy-wrapper">
+            <div class="copy" title="Copy Code to Clipboard"><i class="icon small">content_copy</i></div>
+            <pre><code>Red Hat Linux, SunOS 2.6, Perl, PHP, Javascript, Apache, MySQL, Postgres, Oracle. 
+</code></pre>
+        </div>
+        <h3 id="imt-associates">IMT Associates</h3>
+        <p><strong>Windows/Linux Systems Administrator, Desktop Support</strong><br>
+            <em>Jan 1997 - Jan 2000 (3 years 1 month)</em></p>
+        <p>Windows NT and Linux Systems administration. Windows Desktop support.</p>
+
+    </div>
+
+
+</body>
+
+</html>
